@@ -8,11 +8,12 @@ public class Hasab extends FaIdom {
         this.M = M;
     }
 
-    public double suly() {
-        return 0;
-    }
     public double terfogat() {
-        return A*B*M;
+        return A * B * M;
+    }
+
+    public double suly() {
+        return terfogat() * getFajsuly();
     }
     public double getA() {
         return A;

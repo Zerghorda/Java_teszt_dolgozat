@@ -31,6 +31,12 @@ public class FaIdomokProgram {
     }
 
     public double gombokOsszSuly() {
+        double osszeg=0;
+        for (int i = 0; i < lista.size(); i++) {
+            if (lista.get(i) == Gomb){
+             //
+            }
+        }
         return 0 ;
     }
 
